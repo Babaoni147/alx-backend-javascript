@@ -1,0 +1,31 @@
+{
+  "name": "0x06-unittests_in_js",
+  "version": "1.0.0",
+  "description": "Learning basic inittest for Node.js",
+  "main": "0-calcul.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "./node_modules/.bin/eslint",
+    "check-lint": "lint [0-9]*.js"
+  },
+  "author": "Obah Edwin",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^5.1.2",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jest": "^28.9.0",
+    "eslint-plugin-mocha": "^10.5.0",
+    "mocha": "^10.8.2",
+    "nodemon": "^3.1.7",
+    "request": "^2.88.2",
+    "sinon": "^19.0.2"
+  },
+  "dependencies": {
+    "chai-http": "^5.1.1",
+    "express": "^4.21.1"
+  }
+}
